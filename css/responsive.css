@@ -1,0 +1,215 @@
+.content_left .single_article_wrapper img{
+	max-width: 100%;
+	max-height: auto;
+}
+.selectnav{
+		display: none;
+	}
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	
+	
+	.content{
+		width: 95%;
+	}
+	.content_left{
+		width: 65%;
+		margin-right: 5%;
+	}
+	#sidebar{
+		width: 25%;
+	}
+	#sidebar .single_sidebar .search_box{
+		width: 93%;
+	}
+	#sidebar .single_sidebar .email_submit input{
+		width: 93%;
+	}
+}
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	#header .logo{
+		float: none;
+		text-align: center;
+	}
+	#header nav{
+		float: none;
+	}
+	
+	.content{
+		width: 95%;
+		float: none;
+	}
+	.content_left{
+		width: 95%;
+		float: none;
+		margin-right: none;
+	}
+	#sidebar{
+		width: 100%;
+		float: none;
+		}
+	#sidebar .single_sidebar .search_box{
+		width: 93%;
+		border: 1px solid #E1E0E0;
+		border-right: none;
+	}
+	#sidebar .single_sidebar .email_submit input{
+		width: 93%;
+		border: 1px solid #E1E0E0;
+		border-right: none;
+	}
+	#sidebar .single_sidebar{
+		width: 100%;
+	}	
+	#sidebar .single_sidebar input[type="text"], #sidebar .single_sidebar .email_submit input[type="email"] {
+		float: none;
+		border: 1px solid #E1E0E0;
+	}
+	.selectnav{
+		display: block;
+		height: 50px;
+		width: 95%;
+		margin: 0 auto;
+	}
+	
+	#header>nav #menu{
+		display: none;
+	}
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.content{
+		width: 95%;
+		float: none;
+	}
+	.content_left{
+		width: 95%;
+		float: none;
+	}
+	#sidebar{
+		width: 100%;
+		float: none;
+		}
+	#sidebar .single_sidebar .search_box{
+		width: 93%;
+		border: 1px solid #E1E0E0;
+		border-right: none;
+	}
+	#sidebar .single_sidebar .email_submit input{
+		width: 93%;
+		border: 1px solid #E1E0E0;
+		border-right: none;
+	}
+	#sidebar .single_sidebar{
+		width: 100%;
+	}	
+	#about_mb{
+		float: left;
+		width: 48%;
+		margin-right: 2%;
+	}
+	#search_email_mb{
+		float: right;
+		width: 42%;
+	}
+	.selectnav{
+		display: block;
+		height: 50px;
+		width: 95%;
+		margin: 0 auto;
+	}
+	
+	#header>nav #menu{
+		display: none;
+	}
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	#header .logo{
+		float: none;
+		text-align: center;
+	}
+	#header nav{
+		float: none;
+	}
+	
+	.content{
+		width: 95%;
+		float: none;
+	}
+	.content_left{
+		width: 95%;
+		float: none;
+		margin-right: none;
+	}
+	#sidebar{
+		width: 100%;
+		float: none;
+		}
+	#sidebar .single_sidebar .search_box{
+		width: 93%;
+		border: 1px solid #E1E0E0;
+		border-right: none;
+	}
+	#sidebar .single_sidebar .email_submit input{
+		width: 93%;
+		border: 1px solid #E1E0E0;
+		border-right: none;
+	}
+	#sidebar .single_sidebar{
+		width: 100%;
+	}	
+	#sidebar .single_sidebar input[type="text"], #sidebar .single_sidebar .email_submit input[type="email"] {
+		float: none;
+		border: 1px solid #E1E0E0;
+	}
+	.selectnav{
+		display: block;
+		height: 50px;
+		width: 95%;
+		margin: 0 auto;
+	}
+	#header>nav #menu{
+		display: none;
+	}
+	
+}
